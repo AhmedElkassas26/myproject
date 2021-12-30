@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.DevlopersPageController">
+   <children>
+      <Label layoutX="66.0" layoutY="175.0" prefHeight="30.0" prefWidth="162.0" text="Mohamed Hossain">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="349.0" prefHeight="27.0" prefWidth="138.0" text="Mohamed Reda">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="404.0" layoutY="176.0" prefHeight="27.0" prefWidth="148.0" text="Ahmed ElKassas">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="400.0" layoutY="349.0" prefHeight="27.0" prefWidth="137.0" text="Mohamed Shelf">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="47.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="120.0" fitWidth="427.0" layoutX="406.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img/Screenshot 2021-12-27 204811fa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="115.0" fitWidth="175.0" layoutX="87.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img/Screenshot 2021-12-27 204811fa.png" />
+         </image></ImageView>
+      <ImageView fitHeight="125.0" fitWidth="180.0" layoutX="82.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img/Screenshot 2021-12-27 204811fa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="134.0" layoutX="404.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img/Screenshot 2021-12-27 204811fa.png" />
+         </image>
+      </ImageView>
+      <HBox layoutX="41.0" layoutY="14.0" prefHeight="40.0" prefWidth="526.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="48.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: pointer;">
+                     <image>
+                        <Image url="@../assets/img/backBtnImg.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <JFXButton opacity="0.5" prefHeight="40.0" prefWidth="87.0" ripplerFill="TRANSPARENT" style="-fx-font-weight: 600; -fx-font-family: Poppins;" text="Home" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton opacity="0.5" prefHeight="40.0" prefWidth="171.0" ripplerFill="TRANSPARENT" style="-fx-font-weight: 600; -fx-font-family: Poppins;" text="Material registration" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton opacity="0.5" prefHeight="42.0" prefWidth="50.0" ripplerFill="TRANSPARENT" style="-fx-font-weight: 600; -fx-font-family: Poppins;" text="GPA" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton opacity="0.5" prefHeight="40.0" prefWidth="119.0" ripplerFill="TRANSPARENT" style="-fx-font-weight: 600; -fx-font-family: Poppins;" text="show marks" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="367.0" layoutY="10.0" opacity="0.5" prefHeight="40.0" prefWidth="46.0" ripplerFill="TRANSPARENT" style="-fx-font-weight: 600; -fx-font-family: Poppins;" text="1fs" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
